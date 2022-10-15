@@ -27,21 +27,21 @@
 
 #   I N H E R I T E N C E    I N    P Y T H O N
 
-class Main:
-    def __init__(self):
-        self.abc=str(input("fname -> "))
-        self.xyz=str(input("lname -> "))
+# class Main:
+#     def __init__(self):
+#         self.abc=str(input("fname -> "))
+#         self.xyz=str(input("lname -> "))
         
-    def test(self):
-        print(self.abc + " "+ self.xyz)
+#     def test(self):
+#         print(self.abc + " "+ self.xyz)
 
-class Main_2(Main):
-    pass
-class Main_3(Main_2):
-    pass
+# class Main_2(Main):
+#     pass
+# class Main_3(Main_2):
+#     pass
 
-obj=Main_3()
-obj.test()
+# obj=Main_3()
+# obj.test()
     
     
     
@@ -72,20 +72,7 @@ obj.test()
  
  
  
- 
-  
-    
 
-    
-# class Test
-# {
-#     public static void main(String args[])
-#     {
-#         System.out.print("test");
-#         System.out.println("test");
-#     }
-# }
-    
      
 # class Test:
 #     def main():
@@ -129,11 +116,17 @@ obj.test()
     
     
     
-    
-    
-    
-    
-    
+class Root:
+    def __init__(x,name,last):
+        x.alo=name
+        x.ato=last
+    def test(x):
+        print(x.alo+" "+x.ato)
+obj=Root("subhapriyo","ghosh")
+obj.test()
+# print(x.alo,x.ato)
+
+       
     
 
 
